@@ -1,0 +1,11 @@
+features	Homo sapiens	Gorilla_gorilla_gorilla	Macaca_mulatta	Mus_musculus	Nomascus_leucogenys	Pan_paniscus	Pan_troglodytes	Pongo_abelii	Pongo_pygmaeus	Rattus_norvegicus	Theropithecus_gelada
+length	2512	2529	1439	1728	2567	2555	2537	2526	2536	1745	1890
+GC count	53.38	53.14	56.64	54.05	53.41	53.31	53.02	53.6	53.67	53.07	54.81
+topology	linear	linear	linear	linear	linear	linear	linear	linear	linear	linear	linear
+protein id	NP_000537.3	XP_004058559.3	ADO78765.1	NP_035770.2	XP_030656345.1	XP_003810114.3	XP_001172077.2	XP_002827020.3	XP_054313311.2	NP_112251.2	XP_025219304.1
+mol weight of protein	43652.71	43682.74	43654.67	43457.97	43683.8	43652.71	43652.71	43568.6	43626.63	43450.61	38896.44
+total AA	393	393	393	390	393	393	393	393	393	391	350
+isoelectric point	6.33	6.33	6.47	6.83	6.54	6.33	6.33	6.47	6.33	6.24	8.43
+aromaticity	0.06	0.06	0.06	0.07	0.06	0.06	0.06	0.06	0.06	0.07	0.07
+chromosome no	17	19	Unknown	11	19	19	19	19	19	10	16
+exon count	11	N/A	N/A	11	N/A	N/A	N/A	N/A	N/A	10	N/A
