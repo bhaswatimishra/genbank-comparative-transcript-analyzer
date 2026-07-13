@@ -1,0 +1,94 @@
+Enter the gene name :tp53
+By default the organism name is set as human
+Fasta file created successfully
+file name : TP53_Homo sapiens.fasta
+use the fasta file to run BLAST and from the matching sequences enter the desired accession id
+Enter the id :XM_004058511.5
+Enter the name of the organism :Gorilla gorilla gorilla
+more species id to add ?yes
+Enter the id :HM104190.1
+Enter the name of the organism :Macaca mulatta
+more species id to add ?yes
+Enter the id :NM_011640.4
+Enter the name of the organism :Mus musculus
+more species id to add ?yes
+Enter the id :XM_030800485.1
+Enter the name of the organism :Nomascus leucogenys
+more species id to add ?yes
+Enter the id :XM_003810066.5
+Enter the name of the organism :Pan paniscus
+more species id to add ?yes
+Enter the id :XM_001172077.6
+Enter the name of the organism :Pan troglodytes
+more species id to add ?yes
+Enter the id :XM_002826974.6
+Enter the name of the organism :Pongo abelii
+more species id to add ?yes
+Enter the id :XM_054457336.2
+Enter the name of the organism :Pongo pygmaeus
+more species id to add ?yes
+Enter the id :NM_030989.4
+Enter the name of the organism :Rattus norvegicus
+more species id to add ?yes
+Enter the id :XM_025363519.1
+Enter the name of the organism :Theropithecus gelada
+more species id to add ?no
+Report saved successfully as : transcript_comparator.csv
+
+muscle 5.3.win64 [d9725ac]  8.3Gb RAM, 8 cores
+Built Nov 10 2024 22:59:05
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+[align all_sample.fasta]
+Input: 11 seqs, avg length 389, max 393, min 350
+
+00:00 1.3Mb   100.0% Derep 9 uniques, 2 dupes
+00:00 1.3Mb  CPU has 8 cores, running 8 threads
+00:00 75Mb    100.0% Calc posteriors
+00:01 4.5Mb   100.0% UPGMA5         
+00:01 4.4Mb   100.0% Consistency (1/2)
+00:01 3.9Mb   100.0% Consistency (2/2)
+00:01 3.0Mb   100.0% Refining         
+FastTree Version 2.2.0 Double precision
+Alignment: aligned.fasta
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Jones-Taylor-Thorton, CAT approximation with 20 rate categories
+Initial topology in 0.00 seconds
+Refining topology: 13 rounds ME-NNIs, 2 rounds ME-SPRs, 6 rounds ML-NNIs
+Total branch-length 0.393 after 0.00 sec
+ML-NNI round 1: LogLk = -1991.933 NNIs 1 max delta 3.06 Time 0.03
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 0.717 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+ML-NNI round 2: LogLk = -1933.142 NNIs 0 max delta 0.00 Time 0.06
+Turning off heuristics for final round of ML NNIs (converged)
+ML-NNI round 3: LogLk = -1933.137 NNIs 0 max delta 0.00 Time 0.08 (final)
+Optimize all lengths: LogLk = -1933.137 Time 0.08
+Total time: 0.10 seconds Unique: 9/11 Bad splits: 0/6
+Phylogenetic tree created successfully.
+File name : tree.nwk
+    , XP_002827020.3
+  __|
+ |  | XP_054313311.2
+ |
+ |, NP_000537.3
+ ||
+ || XP_003810114.3
+ ||
+ || XP_001172077.2
+_||
+ || XP_004058559.3
+ |
+ |                                            ________________ NP_035770.2
+ | __________________________________________|
+ ||                                          |___________ NP_112251.2
+ ,|
+ ||    , XP_025219304.1
+ ||____|
+ |     | ADO78765.1
+ |
+ |_ XP_030656345.1
